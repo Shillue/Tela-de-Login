@@ -16,6 +16,7 @@ h1{
    padding: 90px;
    border-radius: 20px;
    color:white;
+   z-index: 1;
 }
 #name, #senh{
     padding: 10px;
@@ -35,7 +36,14 @@ h1{
     font-size: 15px; 
     font-weight: bold;
 }
-#botaoEntrar:hover{
-    background-color: darkcyan;/*mudar a cor do botão*/
+#botaoEntrar:hover{/*mudar a cor do botão*/
+    background-color: darkcyan;
     cursor: pointer;/*mudar cursor*/
+}
+#imag{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    z-index: 0;
 }
